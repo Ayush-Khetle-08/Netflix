@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/64d58efce2.js"crossorigin="anonymous">
+    </script><script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: none;
+        }
+.box{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.493)),url("./img/netflix-library-photo-scaled.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+img{
+    background-color: transparent;
+}
+.btn{
+    width: 110px;
+    height: 40px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 3px;
+    
+}
+.btn2{
+    width: 110px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    margin: 30px 30px;
+}
+ .right{
+    float: right;
+ }
+ .img2{
+    margin: 30px 50px;
+    width: 150px;
+ }
+ .hero{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    color: white;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+ }
+ p{
+     font-size: 25px;
+     margin-top: 10px;
+ }
+ h5{
+     font-size: 18px;
+     margin-top: 20px;
+ }
+  .hero input{
+      width: 420px;
+      height: 18px;
+      outline: none;
+      margin: auto;
+      padding: 20px;
+      margin-top: 30px;
+  }
+  .btn3{
+      width: 220px;
+      height: 60px;
+      border: none;
+      background-color: red;
+      color: white;
+      margin-top: 30px;
+  }
+  .b2{
+ display: flex;
+ color: white;
+  }
+   a{
+       text-decoration: none;
+       color: white;
+       font-size: 25px;
+   }
+   .i{
+       color: white;
+   }
+   .fa-icon{
+       color: white;
+   }
+   hr{
+       border: 4px solid #3a3b3c;
+       width: 99.2%;
+   }
+   .next{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       background-color: black;
+       width: 100%;
+       height: 400px;
+       color: white;
+    
+   }
+   h1{
+        margin-top: 20%;
+       font-size: 45px;
+       font-family: Arial, Helvetica, sans-serif;
+   }
+   p{
+     
+       font-size: 25px;
+       font-family: Arial, Helvetica, sans-serif;
+      
+   }
+   .image{
+   float: right;
+   }
+    .next .next2{
+        width: 50%;
+        
+    }
+    .next .image{
+        width: 100%;
+        height: 60%;
+        margin-top: 20%;
+    }
+    .next3{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       background-color: black;
+       width: 100%;
+       height: 400px;
+       color: white;
+     }
+     .next3 .imat{
+         width: 75%;
+     }
+     .next3 .pat{
+         width: 50%;
+     }
+     .next4{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       background-color: black;
+       width: 100%;
+       height: 400px;
+       color: white;
+       text-align: center;
+     }
+     .next4 .imat2{
+         width: 90%;
+     }
+     .next4 .pat2{
+         width: 80%;
+         margin-top: 3%;
+     }
+     .next3 .imats{
+         width: 85%;
+         margin-top: 4%;
+     }
+     .next3 .pats{
+         width: 70%;
+     }
+     .next5{
+        display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       background-color: black;
+       width: 100%;
+       height: 950px;
+       color: white;
+      
+       }
+       .middle{
+        
+         
+       }
+       .row{
+           width: 100%;
+           height: 20px;
+           line-height: 20px;
+           background-color: #242526;
+           padding: 25px;
+           font-family: Arial, Helvetica, sans-serif;
+           margin-top: 35px;
+       }
+       .middle h1{
+        text-align: center;
+       }
+       ion-icon{
+           float: right;
+       }
+       .row2{
+           width: 100%;
+           height: 20px;
+           line-height: 20px;
+           background-color: #242526;
+           padding: 25px;
+           font-family: Arial, Helvetica, sans-serif;
+           margin-top: 10px;
+       }
+       .row3{
+           width: 100%;
+           height: 20px;
+           line-height: 20px;
+           background-color: #242526;
+           padding: 25px;
+           font-family: Arial, Helvetica, sans-serif;
+           margin-top: 10px;
+       }
+       .row4{
+           width: 100%;
+           height: 20px;
+           line-height: 20px;
+           background-color: #242526;
+           padding: 25px;
+           font-family: Arial, Helvetica, sans-serif;
+           margin-top: 10px;
+       }
+       .row5{
+           width: 100%;
+           height: 20px;
+           line-height: 20px;
+           background-color: #242526;
+           padding: 25px;
+           font-family: Arial, Helvetica, sans-serif;
+           margin-top: 10px;
+       }
+       .row6{
+           width: 100%;
+           height: 20px;
+           line-height: 20px;
+           background-color: #242526;
+           padding: 25px;
+           font-family: Arial, Helvetica, sans-serif; margin-top: 10px;
+       }
+       .hero2 .h5{
+           color: white;
+           font-size: 18px;
+           font-family: Arial, Helvetica, sans-serif;
+           text-align: center;
+       }
+       .hero2 input{
+        width: 420px;
+      height: 25px;
+      outline: none;
+      padding: 15px;
+      margin-top: 30px;
+  }
+  .b2k button{
+      height:60px;
+       
+  }
+  .hero2{
+      text-align: center;
+  }
+  hr{
+       border: 4px solid #242526;
+       width: 99.2%;
+   }
+   .footer{
+       width: 100%;
+       height: 130px;
+       display: flex;
+       flex-direction:row;
+       justify-content: space-between;
+       background-color: black;
+       padding: 4rem 0;
+       margin: auto;
+        
+   }
+   
+.footer .one{
+       display: flex;
+       flex-direction:row;
+       justify-content: space-between;
+       width: 55%;
+       margin: 40px;
+}
+.footer .two{
+       display: flex;
+       flex-direction:row;
+       justify-content: space-between;
+       width: 55%;
+       margin: 40px;
+}
+.one a{
+    color: grey;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.one li{
+    padding: 8px;
+}
+.two a{
+    color: grey;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.two li{
+    padding: 8px;
+}
+.para a {
+    color: grey;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+}
+.btna{
+    width: 100%;
+       height: 90px;
+       display: flex;
+       flex-direction:row;
+       justify-content: space-between;
+       background-color: black;
+}
+.btnk{
+     margin: 30px 50px;
+     width: 110px;
+    height: 40px;
+    background: none;
+    border: 1px solid grey;
+    color: white;
+    border-radius: 3px;
+}
+.btna p{
+    color: grey;
+}
+.f{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    display: flex;
+       flex-direction:row;
+       justify-content: space-between;
+}
+.f p{
+    font-size: 18px;
+    margin: 0px 50px;
+}
+.l{
+    display: flex;
+       flex-direction:row;
+       justify-content: space-between;
+       background-color: black;
+       width: 100%;
+       height: 30px;
+}
+.l p{
+    font-size: 18px;
+    color: grey;
+    margin: 70px 45px;
+}
+@media only screen and (max-width: 768px){
+    .img2{
+    width: 80px;
+    margin: 18px 15px;
+    }
+    .btn{
+        width: 100px;
+        height: 30px;
+        margin: 10px  ;
+    }
+    .btn2{
+        width: 80px;
+        height: 30px;
+        margin: 10px  ;
+       border-radius: 1px;
+       
+    }
+    .right{
+        display: flex;
+        flex-direction:row;
+        margin: 5px 12px;
+        
+    }
+    .box{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.493)),url("./img/netflix-library-photo-scaled.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.hero h1{
+        font-size: 20px;
+    }
+    .next{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       background-color: black;
+       width: 100%;
+       height: 400px;
+       color: white;
+       text-align: center;
+   }
+  
+    .img{
+        width: 80%;
+    }
+    .next p{
+        font-size: 15px;
+    }
+   
+    
+    .box{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.493)),url("./img/netflix-library-photo-scaled.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+     width: 100%;
+    }
+    
+  
+    .row{
+       width: 80%;
+   }
+   .row1{
+       width: 80%;
+   }
+   .row2{
+       width: 80%;
+   }
+   .row3{
+       width: 80%;
+   }
+   .row4{
+       width: 80%;
+   }
+   .row5{
+       width: 80%;
+   }
+   .row6{
+       width: 80%;
+   }
+ hr{
+     width: 100%;
+    }
+    .next{
+        width: 95%;
+    }
+    .next3{
+        width: 95%;
+    }
+    .next4{
+        width: 95%;
+    }
+
+    .next5{
+        width: 95%;
+    }
+    .next6{
+        width: 95%;
+    }
+    .hero{
+      
+     width: 70%;
+    } 
+    .hero p{
+        font-size: 17px;
+    }
+    .hero h5{
+        font-size: 15px;
+    }
+   .box .hero{
+  margin: -40% -35px;
+   }
+   .one a{
+       font-size: 1px;
+   }
+   .two a{
+       font-size: 2px;
+   }
+    
+   .footer{
+      
+   }
+    .b2 input{
+        width:220px;
+        height: 0px;
+        padding-left: 30%;
+    }
+    .hero .b2{
+          
+       display: flex;
+       flex-direction: column;
+     
+    }
+  .hero .btn3{
+      width: 120px;
+      height: 30px;
+      margin:15px 95px;
+      
+  }
+  .hero .btn3 a{
+      font-size: 15px;
+  }
+ 
+  .next .next2 p{
+    margin: 0px 10px;
+   width: 100%;
+   padding:0px 70px ;
+   padding-left: 40%;
+  }
+  .next .next2 h1{
+      font-size: 20px;
+      width: 100%;
+      padding: 0px 60px;
+     padding-left: 35%;
+  }
+  .images{
+      width: 90%;
+      height: 150px;
+      padding-left: 50px;
+       margin-top: -10%;
+  }
+  .next {
+      width: 83%;
+  }
+  .f{
+      width: 80%;
+  }
+ .btna{
+     width: 80%;
+ }
+ 
+  .footer .one a{
+      padding-left: -100px;
+  }
+  .next3{
+    display: flex;
+       flex-direction: column;
+       width: 80%;
+       height: 450px;
+  }
+  .next3 .pat h1{
+      font-size: 21px;
+      padding-left: 100px;
+      width: 100%;
+      margin-top: -10%;
+  }
+  .next3 .pat p{
+      font-size: 15px;
+      padding-left: 100px;
+      width: 100%;
+      
+  }
+  .next3 .imat{
+      padding-left: 15px;
+      width: 90%;
+      margin-top: -2%;
+  }
+  .next{
+      width: 100%;
+  }
+  .next4{
+      width: 100%;
+      height: 400px;
+  }
+  .next4 .pat2{
+     width: 90%;
+     height: 20vh;
+      padding-left: 25px;
+      margin: -20px;
+  }
+  .next4{
+    display: flex;
+       flex-direction: column;
+       
+  }
+  .next4 .imat2 h1{
+      padding-left: 25px;
+      font-size: 25px;
+      margin: -12px ;
+  }
+  .next4 .imat2 p{
+      padding-left: 20px;
+      font-size: 16px;
+     margin-top: 23px;
+  }
+  .next3 .imats{
+      margin-top: 0px;
+    margin-bottom: -1190px;
+  }
+  .next3 .pats h1{
+      font-size: 25px;
+     padding-left:70px;
+     width: 100%;
+     margin-top: 350px;
+  }
+  .next3 .pats p{
+      font-size: 18px;
+      padding-left: 60px;
+     width: 100%;
+    margin: 10px;
+  }
+  .next5 .middle h1{
+      font-size: 22px;
+     margin-left: -45px;
+  }
+  .next5{
+      width: 85%;
+  }
+  .middle{
+      
+      padding-left: 20px;
+  }
+  .middle a{
+      font-size: 20px;
+  }
+  .next5 .middle{
+      height: 30px;
+  }
+  .b2k input{
+        width:250px;
+        height: 0px;
+  }
+   .b2k .btn3{
+      height: 40px;
+      width: 180px;
+  }
+  hr{
+      width:98%;
+  }
+  .l{
+      width: 80%;
+  }
+  .footer{
+       width: 100%;
+       height: 130px;
+     
+       background-color: black;
+  
+   }
+   .next5{
+    width: 100%;
+   }
+   .next3{
+       width: 100%;
+   }
+   .hero h1{
+       padding-left: 10%;
+       width: 100%;
+       margin-top: 100px;
+   }
+   .hero p{
+       padding-left: 10%;
+       width: 100%;
+   }
+   .hero h5{
+       padding-left: 10%;
+       width: 100%;
+   }
+  .b2 input{
+      width: 90%;
+      padding-left: 8%;
+      margin-left: 6%;
+  }
+  .next .next2 h1{
+      margin-left: 12%;
+  }
+  .footer{
+      display: flex;
+      flex-direction:row;
+      padding: 1rem;
+  }
+ .btna{
+     width: 100%;
+ }
+ .f{
+     width: 100%;
+     margin-top: -1%;
+ }
+}
+    </style>
+</head>
+<body>
+    <div class="all"> 
+   <div class="box">
+       <div class="bear"> 
+       
+       <nav>
+        <img class="img2" src="./img/Netflix_steps_into_the_eCommerce_world_by_launching_its_own_online_store_1_1600x.png" >
+        <div class="right">
+        <button class="btn"> <i class="fas fa-globe"></i>&nbsp;English <i class="fas fa-caret-down"></i></button>
+        <button class="btn2"> Sign In</button>
+        <div class="hero">
+           <h1>  Unlimited movies, TV
+                shows and more.</h1>
+                <p>Watch anywhere. Cancel anytime.</p>
+                <h5>Ready to watch? Enter your email to create or restart your membership</h5>
+               <div class="b2">  <input type="text" placeholder="Email address" name="Email address" required><button class="btn3"><a href="#">Get Started ></i></a> </button></div>
+           </div>
+       </nav>
+      </div>
+   </div>
+</div>
+<hr> 
+<div class="next">
+    <div class="next2">  
+<h1>Enjoy on your TV.</h1><br>
+<p>Watch on smart TVs, PlayStation,<br> Xbox, Chromecast, Apple TV, Blu-ray<br> players and more.</p></div>
+<div class="img"> 
+<img class="images" src="./img/featured_netflix.jpg" width="350px" height="200px">
+</div>
+</div>
+<hr>
+<div class="next3">
+    <div class="imat">
+        <img class="imat" src="./img/mobile-0819.jpg">
+    </div>
+    <div class="pat">
+        <h1> Download your<br> shows to watch<br> offline.</h1>
+        <p>Save your favourites easily and always<br> have something to watch.</p>
+        </div>
+</div>
+<hr>
+<div class="next4">
+    <div class="imat2">
+        <h1> Watch everywhere.</h1>
+        <p>Stream unlimited movies and TV<br> shows on your phone, tablet, laptop,<br> and TV.</p>
+    </div>
+    <div class="pat2"> 
+    <img class="pat2" src="./img/watch-netflix-web-series-and-movies-anywhere-for-free.jpg">
+</div>
+</div>
+<hr>
+<div class="next3">
+    <div class="imats">
+        <img class="imat" src="./img/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png">
+    </div>
+    <div class="pats">
+        <h1>Create profiles for<br> children.</h1>
+        <p>Send children on adventures with <br>their favourite characters in a space <br>made just for them—free with your <br>membership.</p>
+        </div>
+</div>
+<hr>
+<div class="next5">
+    <div class="middle">
+        <h1>&nbsp;&nbsp;Frequently Asked Questions</h1>
+    <div class="row">
+        <a href="#"> 
+        <span> What is Netflix</span><ion-icon name="add"></ion-icon>
+    </a>  </div>
+    <div class="row2">
+    <a href="#"> 
+        <span>Ho much Netflix cost ?</span><ion-icon name="add"></ion-icon>
+    </a>  </div>
+    <div class="row3">
+    <a href="#"> 
+        <span> Where can I watch</span><ion-icon name="add"></ion-icon>
+    </a>  </div>
+    <div class="row4">
+    <a href="#"> 
+        <span> How to I cancel</span><ion-icon name="add"></ion-icon>
+    </a>  </div>
+    <div class="row5">
+    <a href="#"> 
+        <span> What can I watch on Netflix</span><ion-icon name="add"></ion-icon>
+    </a>  </div>
+    <div class="row6">
+    <a href="#"> 
+        <span>It good for kids</span><ion-icon name="add"></ion-icon>
+    </a> <br><BR><BR><BR><BR>
+    <div class="hero2"> 
+        <h5>Ready to watch? Enter your email to create or restart your membership</h5> 
+     <div class="b2k">  <input type="text" placeholder="Email address" name="Email address" required><button class="btn3"><a href="#">Get Started ><i class="far fa-arrow-right"></i></a> </button></div> </div>
+</div>
+</div>
+</div>
+</div>
+<hr>
+
+
+   </div>
+   <div class="btna">
+    <button class="btnk"> <i class="fas fa-globe"></i>&nbsp;English <i class="fas fa-caret-down"></i></button><br>
+</div>
+<div class="f">
+    <p> Netflix India</p>
+</div>
+</div>
+</body>
+</html> 
